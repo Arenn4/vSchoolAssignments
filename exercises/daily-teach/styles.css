@@ -1,0 +1,16 @@
+#name {
+    text-decoration: underline;
+}
+
+#city {
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+}
+
+#q2 {
+    font-size: 25px;
+}
+
+#hobby {
+    font-style: italic;
+}

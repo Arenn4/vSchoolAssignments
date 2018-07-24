@@ -1,0 +1,42 @@
+html {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxPRXmRJG1wrF3IKbMGREO6tH5NFtIq-p5iARjTFbekayluin3sg) no-repeat center center fixed;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxPRXmRJG1wrF3IKbMGREO6tH5NFtIq-p5iARjTFbekayluin3sg);
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    border-bottom: 2px solid orange;
+    color: white;
+}
+
+#articleTitle {
+    text-align: left;
+    border: 2px solid orange;
+    
+    display: inline-block;
+}
+
+
+.columns > p {
+    width: 30%;
+    display: inline-block;
+    display: table-cell;
+    color: white;
+    font-size: 20px;
+    border: 2px orange solid ;
+    white-space: normal;
+    padding: 10px;
+}
+
+#coach {
+    display: inline-block;
+    height: Auto;
+    width: 600px;
+}
+
+footer {
+    font: 10px;
+    color: white;
+    float: right;
+}
