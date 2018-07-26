@@ -1,32 +1,154 @@
-#france {
+.france {
     height: 200px;
     width: 300px;
-    /* position: static; */
+    position: absolute;
     display: inline-block;
     background-color: none;
-    
 }
 
-.blue {
+#blue {
     height: 200px;
     display: inline-block;
     width: 100px;
     background-color: blue;
     position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
-.white {
+#white {
     height: 200px;
     display: inline-block;
     width: 100px;
     background-color: white;
     position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
-.red {
+#red {
     height: 200px;
     display: inline-block;
     width: 100px;
     background-color: red;
     position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#germany {
+    height: 150px;
+    width: 300px;
+    position: absolute;
+    background-color: none;
+}
+
+.germblack{
+    height: 50px;
+    display: block;
+    width: 300px;
+    background-color: black;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.germred {
+    height: 50px;
+    display: block;
+    width: 300px;
+    background-color: red;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.germyellow {
+    height: 50px;
+    display: block;
+    width: 300px;
+    background-color: yellow;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#sweden {
+    margin-top: 10px;
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    display: inline-block;
+    background-color: rgb(22, 114, 145);
+}
+
+.swedyellow1 {
+    top: 90px;
+    background-color: yellow;
+    height: 50px;
+    width: 300px;
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.swedyellow {
+    top: -44px;
+    left: 80px;
+    background-color: yellow;
+    height: 200px;
+    width: 50px;
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#maldives {
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    display: inline-block;
+    background-color: crimson;
+}
+
+.malgreen {
+    display: inline-block;
+    background-color: green;
+    height: 200px;
+    width: 300px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    top: 50px;
+    left: 50px;
+}
+
+.malwhite {
+    position: relative;
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    left: -150px;
+    border-radius: 100%;
+}
+
+.malcres {
+    position: relative;
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    left: -240px;
+    border-radius: 100%;
 }
