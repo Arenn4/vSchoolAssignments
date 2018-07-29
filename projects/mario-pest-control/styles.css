@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers');
+html {
+    background-color: coral;
+    background-size: cover;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    background-color: coral;
+    font-family: "Bangers";
+    font-size: 50px;
+    padding: 0px;
+    margin: 0px;
+}
+.goo{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0px;
+    width: 32%;
+    margin: 0px;
+    font-size: 25px;
+}
+.goomba{
+    display: inline-block;
+    
+}
+.bob-ombs{
+    display: inline-block;
+    
+}
+.cheep-cheeps{
+    display: inline-block;
+}
+
+img {
+    display: inline-flex;
+    justify-content: center;
+    height: 250px;
+    width: 250px;
+    border: 2px solid black;
+    padding: 5px;
+}
+input{
+    border: 2px solid black;
+    margin: 2px;
+    background-color: coral;
+    color: black;
+    width: 150px;
+}
+#total{
+    font-size: 100px;
+    background-color: red;
+    display: inline-block;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+    width: auto;
+}
+#all{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+#in{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+footer {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    border: 1px solid black;
+    bottom:0;
+    right: .1px;
+}

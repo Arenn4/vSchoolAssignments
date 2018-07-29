@@ -1,0 +1,175 @@
+html{
+    background: url("https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8a5e4cac8bcaf69ffaf5d3b1c2b063e4&auto=format&fit=crop&w=1600&q=60");
+    padding: 0;
+    margin: 0;
+}
+#business{
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(253, 81, 75);
+    display: flex;
+    font-family: cursive;
+    text-decoration: underline;
+}
+#header-main{
+    font-family: "Cera Pro", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    background-color: #ffffff;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.08);
+    max-height: 48px;
+    padding: 10px 0;
+    position: fixed;
+    z-index: 7;
+    left: 0;
+    right: 0;
+}
+
+#logo-container{
+    padding: 0;
+    padding-left: 0px;
+    height: 48px;
+}
+#logo{
+    padding: 0;
+    padding-left: 5px;
+    height:48px;
+    width: 50px;
+}
+.topnav {
+    position: static;
+    font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    top: 0;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    padding-bottom: 0;
+    left: 0;
+    z-index: 100;
+}
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+.topnav a:hover {
+    background-color: rgb(249, 238, 180);
+    color: black;
+}
+.topnav a.active {
+    background-color: rgb(249, 238, 180);
+    color: black;
+}
+
+#image-container{
+    background-color: white;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 5px solid tan;
+    top: 20vh;
+    left: 10%;
+    width: 85%;
+    height: auto;
+}
+.images{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 75vh;
+}
+img{
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: auto;
+    width: 40vh;
+    padding-top: 0px;
+}
+
+#home-images{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 40vh;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    padding:5px;
+    margin: 0px;
+    width: 40vh;
+}
+h1{
+    height: 8vh;
+    display: inline-flex;
+    margin: 0px;
+    padding: 5px;
+    padding-bottom: 20px;
+}
+#sailboat{
+    height:70vh;
+    width:45vh;
+}
+#anthony{
+    height:60vh;
+    width:100%;
+    padding:5px;
+}
+form{
+    left: auto;
+    width: 100%;
+    padding: 5px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: url(https://images.unsplash.com/photo-1495195134817-aeb325a55b65?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1bdd3a5305d7913b82929130ae81fef6&auto=format&fit=crop&w=800&q=60)no-repeat;
+    background-size: 100%;
+}
+#first-name{
+    padding:10px;
+}
+#last-name{
+    padding:10px;
+}
+#email{
+    padding:10px;
+}
+#message{
+    padding:10px;
+}
+input{
+    display: inline-flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-evenly;
+    left: 25px;
+}
+#emailinput{
+    left: 60px;
+}
+#inputmessage{
+    display: flex;
+    position: absolute;
+    
+}
+#symon{
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: auto;
+    width: 40vh;
+    padding-top: 0px;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Travel Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Diogenes Private Flights</h1>
+    <nav class= "topnav">
+            <a class = "active" href = "#home">Home</a>
+            <a href = "#about#news">News</a>
+            <a href = "#contact">Contact Us</a>
+            <a href = "#about">About Us</a>
+        </nav>
+    <article>
+        <form name="travel">
+            <div id="divNames">
+                First Name: <input type="text" name='fName' placeholder="Enter First Name" required>
+                Last Name: <input type="text" name='lName' placeholder="Enter Last Name" required>
+            </div>
+            <div id="divAges">
+                Age: <input type="text" name="age" placeholder="Enter Age" required>
+            </div>
+            <div id="divGender">
+                Gender: 
+                    Male: <input type="radio" name="gender" value='Male' >
+                    Female: <input type="radio" name="gender" value='Female' >
+            </div>
+            <div id="divDestination">
+                Destination:
+                <select name="destination">
+                    <option name="destination" value="St. Croix" >St. Croix</option>
+                    <option name="destination" value="Fiji" >Fiji</option>
+                    <option name="destination" value="Japan" >Japan</option>
+                </select>
+            </div>
+            <div id="divDietary">
+                Dietary Restrictions:
+                    Vegetarian<input type="checkbox" name="dietary" value='Vegetarian'>
+                    Lactose Free<input type="checkbox" name="dietary" value='Lactose Free'>
+                    Kosher<input type="checkbox" name="dietary" value='Kosher'>
+                    Bacon Only<input type="checkbox" name="dietary" value='Bacon Only'>
+            </div>
+            <button>Submit</button>
+        </form>
+    </article>
+    <script src = "app.js"></script>
+</body>
+</html>

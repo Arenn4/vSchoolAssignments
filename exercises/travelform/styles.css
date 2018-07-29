@@ -1,0 +1,58 @@
+html {
+    background: url(http://coursework.vschool.io/content/images/2016/08/6359033294930248691178153861_airplane.jpg) no-repeat fixed;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(http://coursework.vschool.io/content/images/2016/08/6359033294930248691178153861_airplane.jpg);
+    background-size: cover;
+}
+body{
+    height: auto;
+    width: auto;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    background-color: rgb(3, 2, 83);
+    padding: 0px;
+    margin: 0px;
+    font-size: 50px;
+    color: rgb(255, 102, 0);
+}
+
+.topnav {
+    position: static;
+    top: 0;
+    width: 100%;
+    background-color: rgb(3, 2, 83);
+    display: block;
+    overflow: hidden;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+    left: 0;
+    z-index: 100;
+}
+.topnav a {
+    float: left;
+    color: white;
+    background-color: rgb(3, 2, 83);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+.topnav a:hover {
+    background-color: rgb(4, 1, 170);
+    color: white;
+}
+.topnav a.active {
+    background-color: rgb(4, 1, 170);
+    color: white;
+}
+
+form{
+    color: white;
+    display: inline-block;
+}
+div {
+    padding: 5px;
+    padding-bottom: 10px;
+}

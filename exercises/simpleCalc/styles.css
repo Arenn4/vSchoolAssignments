@@ -1,0 +1,86 @@
+body {
+    height: 300px;
+    background-color: rgba(102, 102, 156, 0.699)
+}
+h1{
+    display: inline-block;
+    color: black;
+}
+#btnAdd{
+    height: auto;
+    width: 100px;
+    background-color: coral;
+    font-size: 15px;
+}
+#numAdd1{
+    height: auto;
+    width: auto;
+    background-color: coral;
+    font-size: 15px;
+}
+#numAdd2{
+    height: auto;
+    width: auto;
+    background-color: coral;
+    font-size: 15px;
+}
+
+#btnSubtract{
+    height: auto;
+    width: 100px;
+    background-color: coral;
+    font-size: 15px;
+}
+#numSub1{
+    height: auto;
+    width: auto;
+    background-color: coral;
+    font-size: 15px;
+}
+#numSub2{
+    height: auto;
+    width: auto;
+    background-color: coral;
+    font-size: 15px;
+}
+
+#btnMulti{
+    height: auto;
+    width: 100px;
+    background-color: coral;
+    font-size: 15px;
+}
+#numMult1{
+    height: auto;
+    width: auto;
+    background-color: coral;
+    font-size: 15px;
+}
+#numMult2{
+    height: auto;
+    width: auto;
+    background-color: coral;
+    font-size: 15px;
+}
+form [name = "myAdd"]{
+    margin-bottom: 15px;
+}
+form [name = "mySubtract"]{
+    margin-bottom: 15px;
+}
+form [name = "myMultiply"]{
+    margin-bottom: 15px;
+}
+
+#div1{
+    margin-top: 5px;
+    padding: 10px;
+}
+
+#div2 {
+    padding: 10px;
+}
+
+#div3{
+    padding: 10px;
+}
