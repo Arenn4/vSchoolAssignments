@@ -8,7 +8,7 @@ form.addEventListener('submit', function(e){
     var destination = form.destination.value
     var dietaryArr = []
     var checkedBoxes = document.querySelectorAll('input[name=dietary]:checked')
-    for (var i = 0; i < checkedBoxes.length; i ++){
+    for (var i = 0; i < checkedBoxes.length; i++){
         dietaryArr.push(checkedBoxes[i].value)
     }
     alert("First Name: " + first + '\n'+ 'Last Name: ' + last + '\n' +

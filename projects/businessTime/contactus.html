@@ -12,16 +12,18 @@
 </head>
 <body>
     <header id="header-main">
-        <div>
+        <div id="divHeader">
             <nav class= "topnav">
-                <a id='logo-container'href="main.html">
-                    <img id="logo"src="https://images.unsplash.com/photo-1525423235703-6c285d74010e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ade5e8ac1abeb746e148d6de60208fb2&auto=format&fit=crop&w=800&q=60"> 
-                </a>
-                <a href = "main.html">Home</a>
-                <a href = "news.html">News</a>
-                <a class = "active" href = "contactus.html">Contact Us</a>
-                <a href = "aboutus.html">About Us</a>
-                <a id="business" href="main.html">Flavortown Chefs</a>
+                <ul>
+                    </li><a id='logo-container'href="main.html">
+                        <img id="logo"src="https://images.unsplash.com/photo-1525423235703-6c285d74010e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ade5e8ac1abeb746e148d6de60208fb2&auto=format&fit=crop&w=800&q=60"> 
+                    </a></li>
+                    <li><a href = "main.html">Home</a></li>
+                    <li><a href = "news.html">News</a></li>
+                    <li><a class='navItems' class = "active" href = "contactus.html">Contact Us</a></li>
+                    <li><a class='navItems' href = "aboutus.html">About Us</a></li>
+                    <li id='flav'><a id="business" href="main.html">Flavortown Chefs</a></li>
+                </ul>
             </nav>
         </div>
     </header>
@@ -37,8 +39,9 @@
                     Email:<input id='emailinput' type="text"placeholder='Enter Email Address'>
                 </div>
                 <div id="message">
-                    <textarea id='inputmessage'rows='5' cols='50'>For specified business inquires please insert your message here!</textarea>
+                    <textarea id='inputmessage'rows='10' cols='100'>For specified business inquires please insert your message here!</textarea>
                 </div>
+                <button>Lets Cook!</button>
             </form>
         </div>
     <script src="app.js"></script>

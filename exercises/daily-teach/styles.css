@@ -1,16 +1,24 @@
-#name {
-    text-decoration: underline;
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 500px;
+    width: 500px;
+    background-color: black;
 }
 
-#city {
-    font-family: 'Courier New', Courier, monospace;
-    color: red;
+#red{
+    background-color: red;
+    height: 100px;
+    width: 100px;
 }
-
-#q2 {
-    font-size: 25px;
+#white{
+    background-color: white;
+    height: 100px;
+    width: 100px;
 }
-
-#hobby {
-    font-style: italic;
+#blue{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
 }
