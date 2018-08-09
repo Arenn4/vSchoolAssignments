@@ -92,6 +92,9 @@ function fight(){
                     }
             }
         }
+        if(player.health <= 0){
+             die()
+        }
     enemy.health += 35    //if statement to resolve
     return notAttacked = false
 }
@@ -103,7 +106,7 @@ function run(){
 
 
 function die(){
-    return ("You did not survive the THUNDERDOME. Final Gold Count: " + 0 + " gold because you died.")
+    console.log("You did not survive the THUNDERDOME. Final Gold Count: " + 0 + " gold because you died.")
 }
 
 //chance of fighting certain enemies
@@ -150,9 +153,9 @@ while(player.health > 0){
         exit()
     }
 }
-while(player.health < 0){
-    die()
-}
+// while(player.health <= 0){
+//      return die()
+// }
 //TWO BIG ERRORS
 //MUST RESET ENEMIES HEALTH BACK TO FULL AFTER A FIGHT, currently defaulting to 40hp
 //MUST ADD IN THE FUNCTIONALITY OF DEATH

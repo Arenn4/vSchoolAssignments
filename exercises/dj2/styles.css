@@ -1,0 +1,104 @@
+#box1{
+    background-color:coral;
+    display:inline-block;
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+    transition-property: box-shadow, height;
+}
+#box1:hover{
+    background-color:cornflowerblue;
+    display:inline-block;
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+    box-shadow: 10px 10px 5px 0 #999;
+    height: 300px;
+    
+}
+#box2{
+    background-color: red;
+    display:inline-block;
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+    transition-property: border-radius, width;
+}
+#box2:hover{
+    background-color: red;
+    display:inline-block;
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+    border-radius: 80%;
+    width: 300px;
+
+
+}
+#box3{
+    background-color: blueviolet;
+    display:inline-block;
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+    transition-property: height, width;
+}
+#box3:hover{
+    background-color: blueviolet;
+    display:inline-block;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+
+}
+#box4{
+    background-color: aquamarine;
+    display:inline-block;
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+    transition-property: border-radius, margin;
+}
+#box4:hover{
+    background-color: burlywood;
+    display:inline-block;
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+    border-radius: 50%;
+    margin: 5px;
+}
+#box5{
+    background-color: darkgoldenrod;
+    display:inline-block;
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+    transition-property: margin, padding, position;
+}
+#box5:hover{
+    background-color: lightcoral;
+    display:inline-block;
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+    padding: 5px;
+    position: fixed;
+}
+#box6{
+    background-color: tomato;
+    display:inline-block;
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+    transition-property: box-shadow, height, width, border-radius;
+}
+#box6:hover{
+    background-color: gold;
+    display:inline-block;
+    height: 600px;
+    width: 500px;
+    margin: 5px;
+    border-radius: 10%;
+    box-shadow: 5px 5px 5px #454545
+}

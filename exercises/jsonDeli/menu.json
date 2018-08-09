@@ -1,0 +1,57 @@
+{
+    "appetizers": [
+        {
+            "name": "Mozzarella Sticks",
+            "ingredients": ["Mozzarella Cheese", "Bread Crumbs"],
+            "description": "The perfect appetizer for a football game, or really any time." 
+        },
+        {
+            "name": "Nachos",
+            "ingredients": ["Tostada Chips", "Sour Cream", "Pico de Gallo", "Salsa", "Ground Beef", "Shredded American Cheese"],
+            "description": "Ballpark style nachos, extra cheesy. Napkins will be needed"
+        }],
+    "cold sandwiches": [
+        {
+            "name": "Ham and Cheese",
+            "ingredients": ["White Bread", "American Cheese", "Ham"],
+            "description": "Ham Sammy, it is a classic" 
+        },
+        {
+            "name": "Turkey, Bacon & Avocado",
+            "ingredients": ["Turkey", "Bacon", "Avocado", "Ranch", "Provolone Cheese"],
+            "description": "Cali-Style" 
+        }],
+    "hot sandwiches": [
+        {
+            "name": "Turkey, Bacon, Swiss Panini",
+            "ingredients": ["Turkey", "Bacon", "Swiss Cheese", "Butter", "Sourdough Bread"],
+            "description": "Solid quick meal for on the go" 
+        },
+        {
+            "name": "Grilled Cheese with Gouda",
+            "ingredients": ["White Bread", "Gouda", "Butter"],
+            "description": "Our attempt to be fancy" 
+        }],
+    "desserts":  [
+        {
+            "name": "Warm Brownie with Vanilla Ice Cream",
+            "ingredients": ["Brownie", "Vanilla Ice Cream", "Chocolate Sauce", "Cherry", "Diced Pecans", "Whipped Cream"],
+            "description": "The perfect dessert doesn't exis..." 
+        },
+        {
+            "name": "Chocolate Milkshake",
+            "ingredients": ["Chocolate Ice Cream", "Whipped Cream", "Milk", "Cherry"],
+            "description": "You can switch to vanilla, but we prefer the classics" 
+        }],
+    "drinks":  [
+        {
+            "name": "Water",
+            "ingredients": ["Two Parts Hydrogen", "One Part Oxygen"],
+            "description": "Stay hydrated folks..." 
+        },
+        {
+            "name": "Lemonade",
+            "ingredients": ["Sugar", "Water", "Lemons"],
+            "description": "Almost as good as Chic-Fil-A's...who are we kidding, no its not." 
+        }]
+}
