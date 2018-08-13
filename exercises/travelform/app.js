@@ -1,5 +1,5 @@
 var form = document.travel
-form.addEventListener('submit', function(e){
+form.addEventListener("submit", function(e){
     e.preventDefault()
     var first = form.fName.value
     var last = form.lName.value

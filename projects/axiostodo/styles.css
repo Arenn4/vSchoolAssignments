@@ -1,0 +1,45 @@
+#container{
+    height: auto;
+    width: 250px;
+    background-color: rgb(250, 250, 167);
+    box-shadow: 5px 5px 5px gray;
+}
+div{
+    border: 2px solid black;
+    margin: 2px;
+}
+#add{
+    display: grid;
+    margin: 5px;
+    font-size: 15px;
+}
+.in{
+    display: grid
+}
+h1{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+    margin: 0px;
+    
+}
+#button1{
+    padding: 5px;
+    position: absolute;
+    top: 500px;
+    left: 180px;
+    margin: 5px;
+    border-radius: 10%;
+    font-size: 15px;
+    background-color:green;
+    color: white;
+}
+#button2{
+    padding: 5px;
+    margin: 0px;
+    height: 35px;
+    border-radius: 10%;
+    font-size: 15px;
+    background-color:green;
+    color: white;
+}

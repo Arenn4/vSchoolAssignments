@@ -1,0 +1,172 @@
+html, body {  
+    background-color: #ffeead;
+    margin: 10px;
+  }
+
+.container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 50px 50px 50px;
+}
+
+/* first grid system */
+.blue {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: blue;
+}
+
+.red{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    background-color: red;
+}
+
+.green{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    background-color: green;
+}
+
+.coral{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    background-color: coral;
+}
+
+.purple{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: purple;
+}
+
+/* second grid system */
+
+.gold{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: gold;
+}
+.lightblue{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: lightblue;
+}
+.orange{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-color: orange;
+}
+.cornflowerblue{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: cornflowerblue;
+}
+.cornflowerblue2{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    background-color: cornflowerblue;
+}
+/* grid system 3 */
+.container2 {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(4, minmax(100px, 1fr));
+    grid-template-rows: 50px 50px 50px;
+}
+.navy{
+    background-color: navy;
+}
+.orange2{
+    background-color: orange;
+}
+.navy2{
+    background-color: navy;
+}
+.orange3{
+    background-color: orange;
+}
+.navy3{
+    background-color: navy;
+}
+.orange4{
+    background-color: orange;
+}
+.navy4{
+    background-color: navy;
+}
+.orange5{
+    background-color: orange;
+}
+.navy5{
+    background-color: navy;
+}
+.orange6{
+    background-color: orange;
+}
+.navy6{
+    background-color: navy;
+}
+.orange7{
+    background-color: orange;
+}
+.navy7{
+    background-color: navy;
+}
+.orange8{
+    background-color: orange;
+}
+/* grid system 4 when on mobile modifying 3 */
+@media only screen and (max-width: 500px){
+    .container2 {
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: repeat(2, minmax(100px, 1fr));
+        grid-auto-rows: 50px;
+    }
+    .navy{
+        background-color: navy;
+    }
+    .orange2{
+        background-color: orange;
+    }
+    .navy2{
+        background-color: navy;
+    }
+    .orange3{
+        background-color: orange;
+    }
+    .navy3{
+        background-color: navy;
+    }
+    .orange4{
+        background-color: orange;
+    }
+    .navy4{
+        background-color: navy;
+    }
+    .orange5{
+        background-color: orange;
+    }
+    .navy5{
+        background-color: navy;
+    }
+    .orange6{
+        background-color: orange;
+    }
+    .navy6{
+        background-color: navy;
+    }
+    .orange7{
+        background-color: orange;
+    }
+    .navy7{
+        background-color: navy;
+    }
+    .orange8{
+        background-color: orange;
+    }
+}
