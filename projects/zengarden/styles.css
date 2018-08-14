@@ -1,0 +1,126 @@
+/* font-family: 'Libre Baskerville', serif;
+font-family: 'Julius Sans One', sans-serif; */
+
+@media only screen and (max-width: 500px){
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    body {
+        color: #325050;
+        background: #fff;
+        font-family: 'Libre Baskerville', sans-serif;
+        font-size: 70%;
+        display: block;
+        margin: 8px;
+    }
+    p {
+        display: block;
+        margin: .75em 0px .75em 0px;
+        line-height: 2;
+        font-size: 1.2em;
+    }
+    p.hide{
+        display: none;
+    }
+    div{
+        display: block;
+
+    }
+    div.preamble{
+        width: 80%;
+        margin: 0px auto 0px auto;
+    }
+    div.summary{
+        width: 80%;
+        margin: 0px auto 0px auto;
+    }
+    div.explanation{
+        width: 80%;
+        margin: 0px auto 0px auto;
+    }
+    .backimg{
+        background-attachment: scroll, scroll, fixed;
+        background-color: rgba(138,188,159,0.5);
+        background-image: url('./zenPhotos/contours-opaque.png'), url('./zenPhotos/gridlines-opaque.png'), url('./zenPhotos/bamboo.png');
+        background-repeat: repeat, repeat, no-repeat;
+        background-size: auto, auto, cover;
+    }
+    div.participation{
+        width: 80%;
+        margin: 0px auto 0px auto;
+        padding: 3em 0px 3em 0px;
+        margin-top: 3em;
+    }
+    div.benefits{
+        width: 80%;
+        margin: 0px auto 0px auto;
+    }
+    div.requirements{
+        width: 80%;
+        margin: 0px auto 0px auto;
+    }
+
+    header {
+        border-top: solid 10px rgba(19, 67, 71, 0.9);
+        height: 230px;
+        padding: 20px 0px 70px 0px;
+        background: #2d6360;
+        background-attachment: fixed, fixed, fixed, scroll;
+        background-image: url('./zenPhotos/contours@2x.png'), url('./zenPhotos/noise.png'), url('./zenPhotos/gridlines.png'), url('./zenPhotos/huntington.jpg');
+        background-size: auto, auto, auto, cover;
+        /* background-position: 0 0, 0 0, -5px -25px, 0 50%; */
+        text-align: center;
+
+    }
+    h2 {
+        display: block;
+        padding-top: 5px;
+        padding-bottom: 30px;
+        border-top: none;
+        color: rgba(255,255,255,0.6);
+        font-size: 1.6em;
+        font-style: italic;
+        display: block;
+        font-size: 1.5em;
+        -webkit-margin-before: 0.83em;
+        -webkit-margin-after: 0.83em;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+        font-weight: bold;
+        padding: 0 10%;
+        margin: 0;
+
+        font-weight: normal;
+    }
+    h3 {
+        margin: 2em 0 0 0;
+        color: #2e484c;
+        font-family: 'Julius Sans One', sans-serif;
+        font-size: 1.8em;
+        font-weight: normal;
+        text-transform: uppercase;
+        display: block;
+        
+    }
+    h1{
+        padding-bottom: 5px;
+        margin-top: 30px;
+        margin-bottom:0px;
+        color: #fff;
+        font-weight: normal;
+        border-bottom: none;
+        border-bottom-width: initial;
+        border-bottom-style: none;
+        border-bottom-color: initial;
+        font-family:'Julius Sans One', sans-serif;
+        font-size:2.5em;
+        text-transform: uppercase;
+        
+    }
+    
+    
+
+
+}

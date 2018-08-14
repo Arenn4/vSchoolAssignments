@@ -1,15 +1,14 @@
 window.addEventListener('click', goClick)
-var clicks = 10 //this is reseting my storage to 0 and not factoring in clicks
+var clicks = localStorage.clicks || 0 //this is reseting my storage to 0 and not factoring in clicks
 function goClick(){
-    document.getElementById('num').innerHTML = (clicks += 1)
+    localStorage.clicks = clicks
+    document.getElementById('num').innerHTML = (clicks++)
+    
 }
 localStorage.setItem('amount', clicks)
-var clicker = localStorage.getItem('amount')
+
 document.getElementById('num').innerHTML = localStorage.getItem('amount')
-console.log(clicker)
-// function refresh(){
-//     return clicker
-// }
+
 
 
 //event listener listening for a click
