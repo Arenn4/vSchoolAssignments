@@ -1,0 +1,5 @@
+.contactContainer{
+    height: 300px;
+    background-color: rgb(61, 60, 45);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.530) 0%,rgba(0,0,0,0.720) 100%);
+}

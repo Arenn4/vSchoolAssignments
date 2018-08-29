@@ -1,0 +1,29 @@
+.headerContainer{
+    background: url('./home-bg.jpg');
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.47) 0%,rgba(0,0,0,0.47) 100%), url('./home-bg.jpg');
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position-y: -250px;
+}
+
+/* ackground-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(http://coursework.vschool.io/content/images/2016/08/6359033294930248691178153861_airplane.jpg); */
+
+
+.blogtitle{
+    color: white;
+    font-size: 80px;
+    margin: auto;
+    top: 130px;
+    left: 40%;
+    position: absolute;
+
+}
+.blogsubtitle{
+    color: white;
+    font-size: 20px;
+    margin: auto;
+    top: 230px;
+    left: 43%;
+    position: absolute;
+}

@@ -1,0 +1,18 @@
+.header{
+    background-color: black;
+    color: red;
+    height: 50px;
+    position: relative;
+}
+.donnie{
+    height: 50px;
+    width: 120px;
+}
+.title{
+    position: relative;
+    left: 30%;
+    top: -85%;
+    font-size: 25px;
+    font-style: normal;
+
+}

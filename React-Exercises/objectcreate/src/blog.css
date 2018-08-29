@@ -1,0 +1,14 @@
+.blogsContainer{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+.articleBlock{
+    height: auto;
+    width: 500px;
+    border-bottom: 2px solid lightgrey;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: auto;
+}

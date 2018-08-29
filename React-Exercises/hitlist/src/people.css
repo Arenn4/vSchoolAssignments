@@ -1,0 +1,24 @@
+.hitcontain{
+    display: inline-block;
+    height: 400px;
+    width: 300px;
+    margin: 20px;
+}
+
+img{
+    height: 400px;
+    width: 300px;
+}
+
+.names{
+    text-align: center;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    bottom: -100%;
+    font-size: 25px;
+    font-style: none;
+    color: white;
+    background-color: rgba( 18, 58,  106, .8);
+}

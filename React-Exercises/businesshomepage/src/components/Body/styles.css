@@ -1,0 +1,43 @@
+.bodyContainer{
+    height: 1000px;
+    background-color: rgb(61, 60, 45);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.530) 0%,rgba(0,0,0,0.720) 100%);
+}
+.bodyTitle{
+    display: flex;
+    position: absolute;
+    left: 45%;
+    padding-top: 15px;
+    padding: 5px;
+    font-size: 30px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    padding-right: 20px;
+    border: 2px solid white;
+}
+.aboutContainer1{
+    width: 400px;
+    height: auto;
+    border: 2px solid white;
+    display: inline-block;
+    position: relative;
+    top: 20%;
+    left: 15%;
+}
+
+.aboutContainer2{
+    width: 400px;
+    height: auto;
+    border: 2px solid white;
+    display: inline-block;
+    top: -15%;
+    position: relative;
+    left: 30%;
+}
+.bodyStyle{
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 15px;
+}

@@ -1,0 +1,25 @@
+.prodcontainer{
+    padding-top: 60px;
+    padding-left: 15%;
+    margin: 5px;
+    display: inline-block;
+
+}
+.prodname{
+    color: white;
+    display: inline-block;
+    margin: 0px;
+}
+.prodabv{
+    color: white;
+    margin: 5px;
+}
+.prodimg{
+    height: 400px;
+    width: 400px;
+}
+.proddesc{
+    color: white;
+    width: 400px;
+
+}

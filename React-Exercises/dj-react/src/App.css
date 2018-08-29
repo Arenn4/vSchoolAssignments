@@ -1,0 +1,105 @@
+
+/* .App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+} */
+
+
+
+@keyframes topleft {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+@keyframes topright {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+@keyframes bottomleft {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+@keyframes bottomright {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.boardcontainer{
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+  grid-template-rows: repeat(2, 200px);
+  grid-gap: 2px;
+  border:2px solid black;
+  max-width: 400px;
+  margin: auto;
+  background-color: grey;
+}
+
+.topleft{
+  border: 5px dashed blue;
+  margin: 2px;
+  border-radius: 50%;
+  animation: topleft infinite 5s linear;
+}
+.topright{
+  border: 5px dashed green;
+  margin: 2px;
+  border-radius: 50%;
+  animation: topleft infinite 8s linear;
+}
+.bottomleft{
+  border: 5px dashed red;
+  margin: 2px;
+  border-radius: 50%;
+  animation: topleft infinite 7s linear;
+}
+.bottomright{
+  border: 5px dashed yellow;
+  margin: 2px;
+  border-radius: 50%;
+  animation: topleft infinite 9s linear;
+}
+
+.btn1{
+  height: 50px;
+  width:150px;
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  font-style: italic;
+  position: absolute;
+  top: 350px;
+  left:10%;
+}
+.btn2{
+  height: 50px;
+  width:150px;
+  background-color: purple;
+  color: white;
+  font-size: 25px;
+  font-style: italic;
+  position: absolute;
+  top: 300px;
+  left:10%;
+}
+.btn3{
+  height: 50px;
+  width:auto;
+  background-color: purple;
+  color: white;
+  font-size: 25px;
+  font-style: italic;
+  position: absolute;
+  top: 250px;
+  left:10%;
+}
+.btn4{
+  height: 50px;
+  width:auto;
+  background-color: purple;
+  color: white;
+  font-size: 25px;
+  font-style: italic;
+  position: absolute;
+  top: 200px;
+  left:10%;
+}
