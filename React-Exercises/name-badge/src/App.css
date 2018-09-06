@@ -1,0 +1,78 @@
+.badge{
+  width: 800px;
+  height: 500px;
+  border-radius: 10%;
+  border: 2px solid black;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.input1{
+  width: 260px;
+  position: absolute;
+  left: 25%;
+  display: inline-flex;
+  margin-top: 50px;
+  border: 2px solid black;
+}
+.input2{
+  width: 260px;
+  position: absolute;
+  left: 25%;
+  display: inline-flex;
+  margin-top: 100px;
+  border: 2px solid black;
+}
+.input3{
+  width: 260px;
+  position: absolute;
+  left: 25%;
+  display: inline-flex;
+  margin-top: 150px;
+  border: 2px solid black;
+}
+
+.input4{
+  width: 230px;
+  position: absolute;
+  left: 50%;
+  display: inline-flex;
+  margin-top: 50px;
+  border: 2px solid black;
+}
+.input5{
+  width: 230px;
+  position: absolute;
+  left: 50%;
+  display: inline-flex;
+  margin-top: 100px;
+  border: 2px solid black;
+}
+.input6{
+  width: 230px;
+  position: absolute;
+  left: 50%;
+  display: inline-flex;
+  margin-top: 150px;
+  border: 2px solid black;
+}
+button{
+  margin: auto;
+  position: absolute;
+  font-size:15px;
+  width: 100px;
+  background-color: green;
+  left: 45%;
+  top: 450px;
+  border: 2px solid black;
+}
+.intro{
+  width: 550px;
+  position: absolute;
+  left: 25%;
+  top: 200px;
+  border: 2px solid black;
+  line-height: 1em;
+  padding: 0 0 150px 0;
+  padding-left: 0;
+}

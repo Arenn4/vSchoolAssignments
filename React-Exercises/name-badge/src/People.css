@@ -1,0 +1,66 @@
+.badge1{
+  width: 800px;
+  height: 500px;
+  border-radius: 6%;
+  border: 2px solid black;
+  margin: auto;
+  margin-bottom: 100px;
+  position: relative;
+}
+.badgetitle{
+  position: relative;
+  width: 800px;
+  height: 40px;
+  background-color: darkslategrey;
+  color: white;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+  text-align: center;
+}
+
+.name1{
+  width: 250px;
+  position: absolute;
+  top: 50px;
+  left: 20%;
+  display: inline-flex;
+  text-align: left;
+  
+}
+.email{
+  display: inline-flex;
+  position: absolute;
+  left: 20%;
+  top: 150px;
+  width: 250px;
+}
+.birth{
+  display: inline-flex;
+  position: absolute;
+  left: 20%;
+  top: 100px;
+  width: 250px;
+}
+
+.phone{
+  display: inline-flex;
+  position: absolute;
+  left: 60%;
+  top: 50px;
+}
+.food{
+  display: inline-flex;
+  position: absolute;
+  left: 60%;
+  top: 100px;
+}
+.introResponse{
+  width: 550px;
+  position: absolute;
+  left: 20%;
+  top: 200px;
+  border: 2px solid black;
+  line-height: 1em;
+  padding: 0 0 150px 0;
+  padding-left: 0;
+}
