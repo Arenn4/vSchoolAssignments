@@ -1,0 +1,13 @@
+.pageContainer{
+    margin: 10px;
+}
+footer{
+    margin-top: 10px;
+}
+.Pet-Search{
+    color: white;
+}
+
+::-webkit-input-placeholder { /* Chrome */
+    color: rgba(255, 255, 255, 0.452);
+  }

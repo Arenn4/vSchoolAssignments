@@ -37,7 +37,6 @@ class Controls extends Component {
                 description: ""
             }))
         }
-        
     }
     
 
