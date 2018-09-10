@@ -1,6 +1,9 @@
+
 .pageContainer{
     margin: 10px;
 }
+
+/* Webpage */
 footer{
     margin-top: 10px;
 }
@@ -11,3 +14,69 @@ footer{
 ::-webkit-input-placeholder { /* Chrome */
     color: rgba(255, 255, 255, 0.452);
   }
+
+
+.menuOptions{
+    display: block;
+    font-size: 30px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    padding-bottom: 5px;
+    /* padding-right: 20px; */
+}
+.sideMenu{
+    height: 300px;
+    width: 200px;
+    background-color: rgba(88, 88, 88, 0.274);
+    position: absolute;
+    left: 90%;
+    transform: left 3s;
+
+}
+.hamMenu{
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+}
+@media only screen and (min-width: 993px){
+    .hambutt{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, .4);
+    position: absolute;
+    left: 65%;
+    top: 10px;
+    display: none;
+}
+}
+/* .hambutt{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, .4);
+    position: absolute;
+    left: 65%;
+    top: 10px;
+    display: none;
+} */
+
+
+/* Tablet and smaller */
+@media only screen and (max-width: 992px){
+    .hambutt{
+        width: 50px;
+        height: 50px;
+        background-color: rgba(255, 255, 255, .4);
+        position: absolute;
+        left: 80%;
+        top: 4px;
+    }
+    .hamMenu{
+        width: 35px;
+        height: 5px;
+        background-color: white;
+        margin: 6px 0;
+    }
+}

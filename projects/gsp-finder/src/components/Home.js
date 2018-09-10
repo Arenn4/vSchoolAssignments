@@ -25,8 +25,8 @@ class Home extends Component {
         <div>
             <div className='home-container'>
                 
-                <img className="home-fade"/>
-                <img className='home-image' src={images[this.props.currentImage]}/>
+                <img className="home-fade" alt=""/>
+                <img className='home-image' alt="" src={images[this.props.currentImage]}/>
                 <h1 className='home-title'>Find Your New Best Friend!</h1>
             </div>
             

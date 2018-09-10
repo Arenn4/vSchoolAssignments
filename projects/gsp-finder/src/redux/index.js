@@ -13,10 +13,11 @@ const initState = {
 // 
 // 
 //Action
+//have to add the KEY into the locaiton field
 export const getAnimals = () => {
     return (dispatch) =>{
         axios({
-            url:`http://api.petfinder.com/pet.find?key=37a8dad2296118bbb84783e98651459d&animal=dog&location=60566&age=Young&age=Baby&breed=German+Shorthaired+Pointer&output=basic&format=json`,
+            url:`http://api.petfinder.com/pet.find?key=37a8dad2296118bbb84783e98651459d&animal=dog&location=60565&age=Young&age=Baby&breed=German+Shorthaired+Pointer&output=basic&format=json`,
             adapter: jsonpAdapter
         })
         .then(response => {
@@ -28,6 +29,24 @@ export const getAnimals = () => {
         })
     }
 }
+
+export const getZipcode = (zipcode) => {
+    console.log(zipcode)
+    return (dispatch) =>{
+        axios({
+            url:`http://api.petfinder.com/pet.find?key=37a8dad2296118bbb84783e98651459d&animal=dog&location=${zipcode.zip}&age=Young&age=Baby&breed=German+Shorthaired+Pointer&output=basic&format=json`,
+            adapter: jsonpAdapter
+        })
+        .then(response => {
+            console.log(response.data.petfinder)
+            dispatch({
+                type: 'GET_ZIPCODE',
+                animals: response.data.petfinder.pets.pet
+            })
+        })
+    }
+}
+
 export const randomImage = () =>{
     return{
         type: "RANDOM_IMAGE"
@@ -48,6 +67,11 @@ const reducer = (prevState=initState, action) => {
                 return {
                 currentImage: Math.floor(Math.random() * (max - min)) + min,
                 animals: prevState.animals
+            }
+        case "GET_ZIPCODE":
+            return {
+                animals: action.animals,
+                currentImage: prevState.currentImage,
             }
         default: 
             return prevState

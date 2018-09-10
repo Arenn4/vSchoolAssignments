@@ -11,7 +11,6 @@ componentDidMount(){
         return (
             <div className="container-page">
                 { this.props.animals.map(animal => {
-                    console.log(this.props.animals)
                     return (
                         <div className="dog-container">
                             <div className="col s8 m3">

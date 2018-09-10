@@ -1,6 +1,6 @@
 .container-page{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fill,minmax(400px, 1fr));
     justify-items: center;
     grid-gap: 25px;
 }
@@ -81,7 +81,7 @@
     border-radius: 1%;
 }
 .about-title{
-    left: 5%;
+    left: 2%;
     position: absolute;
     padding: 5px;
     margin: 5px;
@@ -89,5 +89,42 @@
     color: rgb(225, 103, 104);
     border-bottom: 2px solid rgba(240, 240, 240);
     box-shadow: 2px 2px 2px 1px rgba(225, 103, 104, 0.705);
-
+}
+@media only screen and (max-width: 813px){
+    .home-title{
+        position: absolute;
+        font-size: 50px;
+        color: white;
+        padding: 0px;
+        text-align: center;
+        margin-top: 100px;
+        width: 200px;
+        border-radius: 2%;
+    
+    }
+    .home-container{
+        position: relative;
+        margin-top: 15px;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+    }
+    .home-image{
+        width: 95%;
+        height: 400px;
+        box-shadow: 12px 12px 2px 1px rgba(225, 103, 104, 0.705);
+        border-radius: 1%;
+    }
+    .home-fade{
+        position: absolute;
+        background-color: rgba(0, 0, 0, .6);
+        width: 95%;
+        height: 400px;
+        box-shadow: 12px 12px 2px 1px rgba(225, 103, 104, 0.705);
+        border-radius: 1%;
+    }
+    footer{
+        position: relative;
+        top: 20px;
+    }
 }
