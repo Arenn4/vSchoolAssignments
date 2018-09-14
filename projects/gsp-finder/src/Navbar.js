@@ -36,11 +36,14 @@ class Navbar extends Component {
     //handlesubmit
     //call action, get search
     render(){
+        const styles = {
+            paddingLeft: "5px"
+        }
         return (
             <div>
                 <nav>
                     <form className="nav-wrapper" onSubmit={this.handleSubmit}>
-                        <Link to='/'className="brand-logo"> Find a Pupper</Link>
+                        <Link to='/' style={styles} className="brand-logo"> Find a Pupper</Link>
                         <ul className="right hide-on-med-and-down">
                             <li><Link to='/'>Home</Link></li>
                             <li><Link to='/about'>About</Link></li>
@@ -49,11 +52,27 @@ class Navbar extends Component {
                             <li><button className="btn-small flow-text red-text text-lighten-3 blue-grey lighten-5">Search</button></li>
                         </ul>
                         <ul>
-                        <button onClick={this.props.changeDisplay}className='hambutt'>
-                            <div className='hamMenu'></div>
-                            <div className='hamMenu'></div>
-                            <div className='hamMenu'></div>
-                        </button>
+                        {this.state.status
+                        ?
+                           
+                            <button onClick={this.changeDisplay} className='hambutt'>
+                                <div className='hamMenu'></div>
+                                <div className='hamMenu'></div>
+                                <div className='hamMenu'></div>
+                            </button>
+                        
+                        :
+                            <div className='sideMenu' >
+                                <ul onMouseLeave={this.changeDisplay}>
+                                <Link className='menuOptions'to="/"><span>Home</span></Link>
+                                <Link className='menuOptions'to="/about"><span>About</span></Link>
+                                <Link className='menuOptions'to="/pets"><span>Pets</span></Link>
+                                <li><input className='Pet-Search' type='number' name='zip' value={this.state.zip} onChange={this.handleChange} placeholder='Enter ZIP Code'></input></li>
+                                <li><button className="btn-small flow-text red-text text-lighten-3 blue-grey lighten-5">Search</button></li>
+                                </ul>
+                            </div>
+                             
+                        }
                         </ul>
                     </form>
                 </nav>

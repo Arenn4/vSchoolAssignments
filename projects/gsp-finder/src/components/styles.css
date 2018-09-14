@@ -24,11 +24,15 @@
     height: 400px;
     width: 400px;
     margin: 15px;
+    box-shadow: 12px 12px 2px 1px rgba(225, 103, 104, 0.705);
+    border-radius: 1%;
 }
 .about-desc{
     margin-right: 50px;
     left: 5%;
-    height: 300px;
+    height: 120px;
+    /* text-align: center; */
+    padding-left: 20px;
     width: 300px;
     margin-top: 120px;
     color: rgb(225, 103, 104);
@@ -50,7 +54,8 @@
     position: relative;
     margin-top: 15px;
     height: auto;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(400px, 1fr));
     justify-content: center;
 }
 

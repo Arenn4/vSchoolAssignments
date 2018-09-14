@@ -18,6 +18,7 @@ footer{
 
 .menuOptions{
     display: block;
+    position: relative;
     font-size: 30px;
     list-style: none;
     text-decoration: none;
@@ -27,12 +28,13 @@ footer{
     /* padding-right: 20px; */
 }
 .sideMenu{
-    height: 300px;
+    height: 330px;
     width: 200px;
-    background-color: rgba(88, 88, 88, 0.274);
+    background-color: rgba(225, 103, 104, 0.505);
     position: absolute;
-    left: 90%;
+    left: 70%;
     transform: left 3s;
+    z-index: 10;
 
 }
 .hamMenu{
