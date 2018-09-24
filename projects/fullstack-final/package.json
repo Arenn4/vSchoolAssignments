@@ -1,5 +1,5 @@
 {
-  "name": "intro-to-express",
+  "name": "fullstack-final",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -11,11 +11,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.3",
+    "@sendgrid/client": "^6.3.0",
+    "@sendgrid/mail": "^6.3.1",
+    "dotenv": "^6.0.0",
     "express": "^4.16.3",
-    "mongo": "^0.1.0",
-    "mongoose": "^5.2.14",
-    "morgan": "^1.9.1",
-    "uuid": "^3.3.2"
+    "mongoose": "^5.2.15",
+    "morgan": "^1.9.1"
   }
 }

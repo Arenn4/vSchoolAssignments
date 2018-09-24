@@ -1,14 +1,18 @@
 const express = require('express');
 const app = express();
-const bodyParser = require('body-parser');
+// const bodyParser = require('body-parser');
 // const uuidv4 = require('uuid/v4')
-const bountyRouter = require('./bountyRouter');
+// const bountyRouter = require('./bountyRouter');
 const mongoose = require('mongoose');
+const morgan = require('morgan')
+const bountyRoutes = require('./routes/bountyRoutes')
 
 
 
 //middleware
-app.use(bodyParser.json())
+// app.use(bodyParser.json())
+app.use(express.json())
+app.use(morgan('dev'))
 
 // MONGODB CONNECT
 mongoose.connect(`mongodb://localhost:27017/intro-db`, { useNewUrlParser: true }, )
@@ -16,10 +20,10 @@ mongoose.connect(`mongodb://localhost:27017/intro-db`, { useNewUrlParser: true }
     .catch(err => console.error(err));
 
 
-app.use('/bounties', bountyRouter)
+// app.use('/bounties', bountyRouter)
 
 //Routes
-app.use('/test', require('./routes/bountyRoutes'))
+app.use('/bounties', bountyRoutes)
 
 //Listen
 app.listen(4100, () =>{

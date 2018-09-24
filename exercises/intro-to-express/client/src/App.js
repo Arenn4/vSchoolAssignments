@@ -26,21 +26,16 @@ class App extends Component {
         bounties: res.data
       })
     })
-    
   }
 
-//post
-  
 
-//delete
-
-
-  //dynamic rendering
-  
-//update, put
-  
-
-  //changes the input values for submission
+  getdata = () => {
+    axios.get(`/bounties`).then(res =>{
+      this.setState({
+        bounties: res.data
+      })
+    })
+  }
 
 
   render() {
@@ -49,6 +44,7 @@ class App extends Component {
       return <BountyList 
               key={person.id}
               person={person}
+              getdata={this.getdata}
       />
     })
     
